@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="DrI-oc-9ep">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="tDF-5D-qHV">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="DrI-oc-9ep" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="B63-ew-S8R">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gx3-xO-ei7" kind="relationship" relationship="rootViewController" id="4se-WC-2y2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aBh-nL-SgB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1052" y="10"/>
+        </scene>
+        <!--Testing Root View Controller-->
+        <scene sceneID="mHV-lk-gOE">
+            <objects>
+                <viewController id="gx3-xO-ei7" customClass="TestingRootViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gLx-bE-Wtq">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hl-vx-rnC">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button 1">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="one:" destination="gx3-xO-ei7" eventType="touchUpInside" id="4fe-Ax-dQW"/>
+                                    <segue destination="GQn-Ax-MWK" kind="push" id="XlM-nJ-dqf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NcU-vR-ftF">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button 4">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="four:" destination="gx3-xO-ei7" eventType="touchUpInside" id="3Wc-dN-sYN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STg-Ex-TCS">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button 3">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="three:" destination="gx3-xO-ei7" eventType="touchUpInside" id="1lm-oD-Tpc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vKA-03-EEh">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button 2">
+                                            <attributes>
+                                                <color key="NSColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="15" name="Helvetica-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="two:" destination="gx3-xO-ei7" eventType="touchUpInside" id="eBf-BZ-V5V"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vKA-03-EEh" firstAttribute="top" secondItem="gLx-bE-Wtq" secondAttribute="top" constant="116" id="56T-6r-PnH"/>
+                            <constraint firstAttribute="bottom" secondItem="NcU-vR-ftF" secondAttribute="bottom" constant="172" id="5xY-zP-rX1"/>
+                            <constraint firstItem="NcU-vR-ftF" firstAttribute="leading" secondItem="STg-Ex-TCS" secondAttribute="leading" type="default" id="hvF-zL-Ohv"/>
+                            <constraint firstItem="STg-Ex-TCS" firstAttribute="top" secondItem="gLx-bE-Wtq" secondAttribute="top" constant="201" id="po2-Hw-DLg"/>
+                            <constraint firstItem="STg-Ex-TCS" firstAttribute="leading" secondItem="vKA-03-EEh" secondAttribute="leading" type="default" id="tEO-Dr-NbN"/>
+                            <constraint firstItem="9Hl-vx-rnC" firstAttribute="leading" secondItem="gLx-bE-Wtq" secondAttribute="leading" constant="124" id="w2k-dA-jrQ"/>
+                            <constraint firstItem="vKA-03-EEh" firstAttribute="leading" secondItem="9Hl-vx-rnC" secondAttribute="leading" type="default" id="x5j-Y7-J2a"/>
+                            <constraint firstItem="9Hl-vx-rnC" firstAttribute="top" secondItem="gLx-bE-Wtq" secondAttribute="top" constant="42" id="xxO-ZC-5AR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hXr-dl-Bai"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wBg-aK-54w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-602" y="10"/>
+        </scene>
+        <!--Location View Controller-->
+        <scene sceneID="WQ0-zO-05C">
+            <objects>
+                <viewController id="GQn-Ax-MWK" customClass="LocationViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9YX-PT-ySd">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dtI-uP-mAc">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="278" id="Krb-qr-d7l"/>
+                                </constraints>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dtI-uP-mAc" firstAttribute="top" secondItem="9YX-PT-ySd" secondAttribute="top" type="default" id="1uP-jc-Ufr"/>
+                            <constraint firstItem="dtI-uP-mAc" firstAttribute="trailing" secondItem="9YX-PT-ySd" secondAttribute="trailing" type="default" id="3eC-5i-l1G"/>
+                            <constraint firstItem="dtI-uP-mAc" firstAttribute="leading" secondItem="9YX-PT-ySd" secondAttribute="leading" type="default" id="Qy4-Fx-goX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="aeH-yT-EOS"/>
+                    <connections>
+                        <outlet property="mapMain" destination="dtI-uP-mAc" id="sY1-pk-dya"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wMc-iK-cbf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-63" y="-339"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

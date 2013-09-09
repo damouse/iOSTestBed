@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface TestingRootViewController : UIViewController
-- (IBAction)buttonHuh:(id)sender;
 
+- (IBAction)one:(id)sender;
+- (IBAction)two:(id)sender;
+- (IBAction)three:(id)sender;
+- (IBAction)four:(id)sender;
 @end

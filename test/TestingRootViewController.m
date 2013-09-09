@@ -7,8 +7,7 @@
 //
 
 #import "TestingRootViewController.h"
-#import <objc/runtime.h>
-#import "TestTableObject.h"
+#import "PListTest.h"
 
 @interface TestingRootViewController ()
 
@@ -32,49 +31,27 @@
 }
 
 - (void) viewDidAppear:(BOOL)animated {
-    TestTableObject *obj = [[TestTableObject alloc] init];
-    
-    [obj setName:@"mickey"];
-    [obj setAge:@"10"];
-    [obj setTime:@"60"];
-    
-    NSArray *stuff = [self allPropertyNames:obj];
-    
-    [stuff enumerateObjectsUsingBlock:^(id object, NSUInteger idx, BOOL *stop) {
-        NSLog(@"%@, %@", object, [obj valueForKey:object]);
-    }];
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+#pragma mark Location Testing
+
+
+#pragma mark Buttons
+- (IBAction)one:(id)sender {
+
 }
 
-- (IBAction)buttonHuh:(id)sender {
+- (IBAction)two:(id)sender {
+    //plist testing
+    PListTest *test = [[PListTest alloc] init];
+    [test test];
 }
 
-- (void) readProperties:(id)object {
-    
+- (IBAction)three:(id)sender {
 }
 
-- (NSArray *)allPropertyNames:(id)class
-{
-    unsigned count;
-    objc_property_t *properties = class_copyPropertyList([class class], &count);
-    
-    NSMutableArray *rv = [NSMutableArray array];
-    
-    unsigned i;
-    for (i = 0; i < count; i++)
-    {
-        objc_property_t property = properties[i];
-        NSString *name = [NSString stringWithUTF8String:property_getName(property)];
-        [rv addObject:name];
-    }
-    
-    free(properties);
-    
-    return rv;
+- (IBAction)four:(id)sender {
 }
 @end
