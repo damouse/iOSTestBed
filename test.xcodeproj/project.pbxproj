@@ -14,6 +14,15 @@
 		705CFA4317DD659E00661C9D /* BinderWithRKMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 705CFA4217DD659E00661C9D /* BinderWithRKMapper.m */; };
 		705CFA4617DD664C00661C9D /* TestSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 705CFA4517DD664C00661C9D /* TestSource.m */; };
 		705CFA4917DD665100661C9D /* TestDest.m in Sources */ = {isa = PBXBuildFile; fileRef = 705CFA4817DD665100661C9D /* TestDest.m */; };
+		705CFA5817DE968700661C9D /* MCBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 705CFA5117DE968700661C9D /* MCBinder.m */; };
+		705CFA5917DE968700661C9D /* MCProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 705CFA5317DE968700661C9D /* MCProperty.m */; };
+		705CFA5A17DE968700661C9D /* MCTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 705CFA5517DE968700661C9D /* MCTableView.m */; };
+		705CFA5B17DE968700661C9D /* MCCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 705CFA5717DE968700661C9D /* MCCollectionView.m */; };
+		705CFA5E17DEB3AF00661C9D /* MCLabelInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 705CFA5D17DEB3AF00661C9D /* MCLabelInterpreter.m */; };
+		705CFA6117DEB3D500661C9D /* MCUIElementInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 705CFA6017DEB3D400661C9D /* MCUIElementInterpreter.m */; };
+		705CFA6417DEB3E500661C9D /* MCTextViewInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 705CFA6317DEB3E400661C9D /* MCTextViewInterpreter.m */; };
+		705CFA6717DEB3F400661C9D /* MCTextFieldInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 705CFA6617DEB3F200661C9D /* MCTextFieldInterpreter.m */; };
+		705CFA6A17DEB40F00661C9D /* MCImageViewInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 705CFA6917DEB40800661C9D /* MCImageViewInterpreter.m */; };
 		708791B017DA62A300A10A8A /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708791AF17DA62A300A10A8A /* LocationViewController.m */; };
 		708791B217DA630C00A10A8A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708791B117DA630C00A10A8A /* MapKit.framework */; };
 		708791B417DA663900A10A8A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708791B317DA663900A10A8A /* CoreLocation.framework */; };
@@ -58,6 +67,24 @@
 		705CFA4517DD664C00661C9D /* TestSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSource.m; sourceTree = "<group>"; };
 		705CFA4717DD665100661C9D /* TestDest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDest.h; sourceTree = "<group>"; };
 		705CFA4817DD665100661C9D /* TestDest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDest.m; sourceTree = "<group>"; };
+		705CFA5017DE968700661C9D /* MCBinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBinder.h; sourceTree = "<group>"; };
+		705CFA5117DE968700661C9D /* MCBinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCBinder.m; sourceTree = "<group>"; };
+		705CFA5217DE968700661C9D /* MCProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCProperty.h; sourceTree = "<group>"; };
+		705CFA5317DE968700661C9D /* MCProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCProperty.m; sourceTree = "<group>"; };
+		705CFA5417DE968700661C9D /* MCTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTableView.h; sourceTree = "<group>"; };
+		705CFA5517DE968700661C9D /* MCTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTableView.m; sourceTree = "<group>"; };
+		705CFA5617DE968700661C9D /* MCCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCollectionView.h; sourceTree = "<group>"; };
+		705CFA5717DE968700661C9D /* MCCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCollectionView.m; sourceTree = "<group>"; };
+		705CFA5C17DEB3AE00661C9D /* MCLabelInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLabelInterpreter.h; sourceTree = "<group>"; };
+		705CFA5D17DEB3AF00661C9D /* MCLabelInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCLabelInterpreter.m; sourceTree = "<group>"; };
+		705CFA5F17DEB3D400661C9D /* MCUIElementInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCUIElementInterpreter.h; sourceTree = "<group>"; };
+		705CFA6017DEB3D400661C9D /* MCUIElementInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCUIElementInterpreter.m; sourceTree = "<group>"; };
+		705CFA6217DEB3E400661C9D /* MCTextViewInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTextViewInterpreter.h; sourceTree = "<group>"; };
+		705CFA6317DEB3E400661C9D /* MCTextViewInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTextViewInterpreter.m; sourceTree = "<group>"; };
+		705CFA6517DEB3F200661C9D /* MCTextFieldInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTextFieldInterpreter.h; sourceTree = "<group>"; };
+		705CFA6617DEB3F200661C9D /* MCTextFieldInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTextFieldInterpreter.m; sourceTree = "<group>"; };
+		705CFA6817DEB40400661C9D /* MCImageViewInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCImageViewInterpreter.h; sourceTree = "<group>"; };
+		705CFA6917DEB40800661C9D /* MCImageViewInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCImageViewInterpreter.m; sourceTree = "<group>"; };
 		708791AE17DA62A300A10A8A /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
 		708791AF17DA62A300A10A8A /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		708791B117DA630C00A10A8A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -139,6 +166,31 @@
 			name = RKObjectMapping;
 			sourceTree = "<group>";
 		};
+		705CFA4F17DE965700661C9D /* BMC */ = {
+			isa = PBXGroup;
+			children = (
+				705CFA5017DE968700661C9D /* MCBinder.h */,
+				705CFA5117DE968700661C9D /* MCBinder.m */,
+				705CFA5217DE968700661C9D /* MCProperty.h */,
+				705CFA5317DE968700661C9D /* MCProperty.m */,
+				705CFA5C17DEB3AE00661C9D /* MCLabelInterpreter.h */,
+				705CFA5D17DEB3AF00661C9D /* MCLabelInterpreter.m */,
+				705CFA5F17DEB3D400661C9D /* MCUIElementInterpreter.h */,
+				705CFA6017DEB3D400661C9D /* MCUIElementInterpreter.m */,
+				705CFA6217DEB3E400661C9D /* MCTextViewInterpreter.h */,
+				705CFA6317DEB3E400661C9D /* MCTextViewInterpreter.m */,
+				705CFA6517DEB3F200661C9D /* MCTextFieldInterpreter.h */,
+				705CFA6617DEB3F200661C9D /* MCTextFieldInterpreter.m */,
+				705CFA6817DEB40400661C9D /* MCImageViewInterpreter.h */,
+				705CFA6917DEB40800661C9D /* MCImageViewInterpreter.m */,
+				705CFA5417DE968700661C9D /* MCTableView.h */,
+				705CFA5517DE968700661C9D /* MCTableView.m */,
+				705CFA5617DE968700661C9D /* MCCollectionView.h */,
+				705CFA5717DE968700661C9D /* MCCollectionView.m */,
+			);
+			name = BMC;
+			sourceTree = "<group>";
+		};
 		708FAD0917D8E7A300E58B4F /* Location */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +242,7 @@
 				709DAA7517D1540F00E15B2B /* MainStoryboard.storyboard */,
 				709DAAB117D1640D00E15B2B /* TestingRootViewController.h */,
 				709DAAB217D1640E00E15B2B /* TestingRootViewController.m */,
+				705CFA4F17DE965700661C9D /* BMC */,
 				705CF97C17DD646B00661C9D /* RKObjectMapping */,
 				705CF96E17DD539C00661C9D /* PList */,
 				708FAD0917D8E7A300E58B4F /* Location */,
@@ -383,6 +436,15 @@
 				705CFA4317DD659E00661C9D /* BinderWithRKMapper.m in Sources */,
 				705CFA4617DD664C00661C9D /* TestSource.m in Sources */,
 				705CFA4917DD665100661C9D /* TestDest.m in Sources */,
+				705CFA5817DE968700661C9D /* MCBinder.m in Sources */,
+				705CFA5917DE968700661C9D /* MCProperty.m in Sources */,
+				705CFA5A17DE968700661C9D /* MCTableView.m in Sources */,
+				705CFA5B17DE968700661C9D /* MCCollectionView.m in Sources */,
+				705CFA5E17DEB3AF00661C9D /* MCLabelInterpreter.m in Sources */,
+				705CFA6117DEB3D500661C9D /* MCUIElementInterpreter.m in Sources */,
+				705CFA6417DEB3E500661C9D /* MCTextViewInterpreter.m in Sources */,
+				705CFA6717DEB3F400661C9D /* MCTextFieldInterpreter.m in Sources */,
+				705CFA6A17DEB40F00661C9D /* MCImageViewInterpreter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
