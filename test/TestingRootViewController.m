@@ -8,7 +8,7 @@
 
 #import "TestingRootViewController.h"
 #import "PListTest.h"
-#import "BinderWithRKMapper.h"
+
 
 @interface TestingRootViewController ()
 
@@ -51,8 +51,7 @@
 }
 
 - (IBAction)three:(id)sender {
-    BinderWithRKMapper *binder = [[BinderWithRKMapper alloc] init];
-    [binder test];
+
     
 }
 

@@ -6,6 +6,15 @@
 //  Copyright (c) 2013 HardinDD. All rights reserved.
 //
 
+//verbose, conditional BMC logging
+#define LOGGING 1
+
+#ifdef LOGGING
+#   define MCLog(fmt, ...) NSLog((@"%s [Line %d]\n" fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define MCLog(...)
+#endif
+
 
 @interface MCBinder : NSObject
 

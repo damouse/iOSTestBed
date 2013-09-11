@@ -47,7 +47,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
 
-    [binder bindPropertiesFrom:cell toObject:[data objectAtIndex:indexPath.row]];
+    [binder bindPropertiesFrom:[data objectAtIndex:indexPath.row] toObject:cell];
     
     return cell;
 }
