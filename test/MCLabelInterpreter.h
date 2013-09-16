@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MCUIElementInterpreter.h"
 
-@interface MCLabelInterpreter : NSObject
+@interface MCLabelInterpreter : MCUIElementInterpreter
+
 
 @end

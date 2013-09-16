@@ -5,19 +5,31 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>0141BBEC-75A8-4104-BEB9-89596AD94C0F</string>
+=======
+	<string>5DCD5F89-9115-4EA8-893B-EF468260D280</string>
+>>>>>>> 2983f6b2d53a2455b5fafec9cec84b19388a37fd
 	<key>IDESourceControlProjectName</key>
 	<string>test</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>CA47DA83-1C32-4323-9381-486E6744B486</key>
+=======
+		<key>8A659CB6-13DE-4D9C-ACB7-95205BFA48AC</key>
+>>>>>>> 2983f6b2d53a2455b5fafec9cec84b19388a37fd
 		<string>https://github.com/damouse/iOSTestBed.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>test.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>CA47DA83-1C32-4323-9381-486E6744B486</key>
+=======
+		<key>8A659CB6-13DE-4D9C-ACB7-95205BFA48AC</key>
+>>>>>>> 2983f6b2d53a2455b5fafec9cec84b19388a37fd
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +37,22 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
 	<string>CA47DA83-1C32-4323-9381-486E6744B486</string>
+=======
+	<string>8A659CB6-13DE-4D9C-ACB7-95205BFA48AC</string>
+>>>>>>> 2983f6b2d53a2455b5fafec9cec84b19388a37fd
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>CA47DA83-1C32-4323-9381-486E6744B486</string>
+=======
+			<string>8A659CB6-13DE-4D9C-ACB7-95205BFA48AC</string>
+>>>>>>> 2983f6b2d53a2455b5fafec9cec84b19388a37fd
 			<key>IDESourceControlWCCName</key>
 			<string>iOSTestBed</string>
 		</dict>

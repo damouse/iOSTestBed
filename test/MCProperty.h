@@ -18,7 +18,8 @@
 @interface MCProperty : NSObject
 
 //this is the orignal name of the keypath of the property
-@property (strong, nonatomic) NSString *originalKeyPath;
+//UNLESS ITS A MODEL, in which case its the nested keypath ignoring the root key
+@property (strong, nonatomic) NSString *keyPath;
 
 //this is the formatted property name, with the type modifier removed
 //for example: labelName becomes name, textviewMyManifesto becomes myManifesto
@@ -33,6 +34,7 @@
 //this is the actual object that the keypath refers to.
 //This is the thing that is acutally manipulated
 @property (weak, nonatomic) NSObject *propertyObject;
+
 
 //expects the keypath of the property and the object to which it belongs to
 - (id) initWithKey:(NSString *)path fromObject:(NSObject *)cell;
