@@ -9,6 +9,8 @@
 #import "PListTest.h"
 #import "SampleObject.h"
 
+#import "PreCache.h"
+
 @implementation PListTest {
     NSArray *dataObjects;
 }
@@ -18,7 +20,7 @@
     [self createTestObjets];
     
     //[self write];
-    [self read];
+    //[self read];
 }
 
 - (void) createTestObjets {
@@ -39,6 +41,10 @@
     [s3 setRestaurantID:@"C"];
     
     dataObjects = @[s1, s2, s3];
+    
+    PreCache *cacher = [[PreCache alloc] init];
+    [cacher createPListWithObjects:dataObjects withName:@"test"];
+    //[cacher loadPListNamed:@"test"];
 }
 
 -(void) write {

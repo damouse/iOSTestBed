@@ -50,7 +50,7 @@
     //determine the type of the cell property, create the correct handler and pass it off (for each model property)
     for(MCProperty *modelProperty in model) {
         //determine type of property the cell object has and pass off both properties to a handler
-        if([[property propertyObject] isKindOfClass:[UILabel class]])
+       //if([[property propertyObject] isKindOfClass:[UILabel class]])
             
     }
 }
@@ -61,11 +61,11 @@
     NSArray *modelProperties = [self getPropertiesForClass:[model class]];
     
     //properties on cell objects have nice formatting: remove that for the search
-    NSString *rawName = [self parseCellProperty:property];
+    NSString *rawName;// = [self parseCellProperty:property];
     
     //get all the properties from the model that match the property keypath that was passed in
     //NOTE: 2D array incoming to account for keypaths and not just key values
-    NSArray *matchingProperties = [self getPropertiesFromArray:modelProperties matchingKeyPath:rawName];
+    NSArray *matchingProperties;// = [self getPropertiesFromArray:modelProperties matchingKeyPath:rawName];
     
     //check to make sure the property actually exists on the model
     if([matchingProperties count] == 0) {

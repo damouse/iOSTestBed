@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0141BBEC-75A8-4104-BEB9-89596AD94C0F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>test</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CA47DA83-1C32-4323-9381-486E6744B486</key>
+		<string>https://github.com/damouse/iOSTestBed.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>test.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CA47DA83-1C32-4323-9381-486E6744B486</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/damouse/iOSTestBed.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CA47DA83-1C32-4323-9381-486E6744B486</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CA47DA83-1C32-4323-9381-486E6744B486</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSTestBed</string>
+		</dict>
+	</array>
+</dict>
+</plist>
