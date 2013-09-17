@@ -6,18 +6,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-<<<<<<< HEAD
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "test/RKCoreViewController.m"
-            timestampString = "400984999.668839"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
-            landmarkName = "-test:"
-=======
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -28,7 +16,6 @@
             startingLineNumber = "55"
             endingLineNumber = "55"
             landmarkName = "-test"
->>>>>>> 2983f6b2d53a2455b5fafec9cec84b19388a37fd
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="DrI-oc-9ep">
-=======
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="DrI-oc-9ep">
->>>>>>> 2983f6b2d53a2455b5fafec9cec84b19388a37fd
     <dependencies>
         <deployment defaultVersion="1552" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
@@ -24,33 +20,6 @@
             </objects>
             <point key="canvasLocation" x="-1052" y="10"/>
         </scene>
-        <!--Core View Controller-->
-        <scene sceneID="mhZ-uh-hOL">
-            <objects>
-                <viewController id="hD4-C6-C9W" customClass="RKCoreViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="swx-fY-zcO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0nv-Rl-ggo">
-                                <rect key="frame" x="124" y="319" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="test:" destination="hD4-C6-C9W" eventType="touchUpInside" id="yw5-qD-Xig"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="wmc-Je-cQe"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wub-h9-xBy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-617" y="-737"/>
-        </scene>
         <!--Testing Root View Controller-->
         <scene sceneID="mHV-lk-gOE">
             <objects>
@@ -63,13 +32,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-<<<<<<< HEAD
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9Hl-vx-rnC">
-                                <rect key="frame" x="124" y="47" width="85" height="44"/>
-=======
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hl-vx-rnC">
                                 <rect key="frame" x="124" y="142" width="59" height="30"/>
->>>>>>> 2983f6b2d53a2455b5fafec9cec84b19388a37fd
                                 <state key="normal" title="Button 1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -77,28 +41,17 @@
                                     <action selector="one:" destination="gx3-xO-ei7" eventType="touchUpInside" id="4fe-Ax-dQW"/>
                                 </connections>
                             </button>
-<<<<<<< HEAD
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NcU-vR-ftF">
-                                <rect key="frame" x="124" y="384" width="85" height="44"/>
-=======
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NcU-vR-ftF">
                                 <rect key="frame" x="122" y="255" width="59" height="30"/>
->>>>>>> 2983f6b2d53a2455b5fafec9cec84b19388a37fd
                                 <state key="normal" title="Button 4">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="four:" destination="gx3-xO-ei7" eventType="touchUpInside" id="3Wc-dN-sYN"/>
-                                    <segue destination="B0R-on-ihv" kind="modal" id="f32-ls-LoG"/>
                                 </connections>
                             </button>
-<<<<<<< HEAD
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="STg-Ex-TCS">
-                                <rect key="frame" x="124" y="229" width="85" height="44"/>
-=======
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STg-Ex-TCS">
                                 <rect key="frame" x="124" y="217" width="59" height="30"/>
->>>>>>> 2983f6b2d53a2455b5fafec9cec84b19388a37fd
                                 <state key="normal" title="Button 3">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -107,13 +60,8 @@
                                     <segue destination="Gfk-ni-tQ0" kind="push" id="6Tn-YK-ddD"/>
                                 </connections>
                             </button>
-<<<<<<< HEAD
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="vKA-03-EEh">
-                                <rect key="frame" x="118" y="133" width="85" height="44"/>
-=======
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vKA-03-EEh">
                                 <rect key="frame" x="122" y="180" width="61" height="29"/>
->>>>>>> 2983f6b2d53a2455b5fafec9cec84b19388a37fd
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -127,13 +75,10 @@
                                 </state>
                                 <connections>
                                     <action selector="two:" destination="gx3-xO-ei7" eventType="touchUpInside" id="eBf-BZ-V5V"/>
-                                    <segue destination="hD4-C6-C9W" kind="push" id="4zN-Xd-fYx"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-<<<<<<< HEAD
-=======
                         <constraints>
                             <constraint firstItem="vKA-03-EEh" firstAttribute="top" secondItem="gLx-bE-Wtq" secondAttribute="top" constant="116" id="56T-6r-PnH"/>
                             <constraint firstAttribute="bottom" secondItem="NcU-vR-ftF" secondAttribute="bottom" constant="172" id="5xY-zP-rX1"/>
@@ -144,7 +89,6 @@
                             <constraint firstItem="vKA-03-EEh" firstAttribute="leading" secondItem="9Hl-vx-rnC" secondAttribute="leading" id="x5j-Y7-J2a"/>
                             <constraint firstItem="9Hl-vx-rnC" firstAttribute="top" secondItem="gLx-bE-Wtq" secondAttribute="top" constant="42" id="xxO-ZC-5AR"/>
                         </constraints>
->>>>>>> 2983f6b2d53a2455b5fafec9cec84b19388a37fd
                     </view>
                     <navigationItem key="navigationItem" id="hXr-dl-Bai"/>
                 </viewController>
@@ -152,110 +96,6 @@
             </objects>
             <point key="canvasLocation" x="-602" y="10"/>
         </scene>
-<<<<<<< HEAD
-        <!--Animation Testing View Controller-->
-        <scene sceneID="HXF-WE-guP">
-            <objects>
-                <viewController id="B0R-on-ihv" customClass="AnimationTestingViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="UqP-ux-Rb8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3zJ-dh-Z8D">
-                                <rect key="frame" x="73" y="31" width="33" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="1">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="one:" destination="B0R-on-ihv" eventType="touchUpInside" id="icm-6x-FRJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tNw-6t-OGb">
-                                <rect key="frame" x="223" y="31" width="33" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="2">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="two:" destination="B0R-on-ihv" eventType="touchUpInside" id="3vk-EY-SSd"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" id="6mp-w6-tHg">
-                                <rect key="frame" x="0.0" y="153" width="320" height="414.00000000000006"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="48l-HI-ujR"/>
-                    <connections>
-                        <outlet property="viewMain" destination="6mp-w6-tHg" id="EU7-fY-SvL"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WIb-fl-WoO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-589" y="701"/>
-        </scene>
-        <!--Animation One View Controller-->
-        <scene sceneID="hJR-a1-h5B">
-            <objects>
-                <viewController storyboardIdentifier="one" id="Z6M-az-kVq" customClass="AnimationOneViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Qtw-Xq-L7e">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="zYT-J9-V0w">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.46463325491887286" blue="0.4687779602980382" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Upq-1z-yPj" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-182" y="701"/>
-        </scene>
-        <!--Animation Two View Controller-->
-        <scene sceneID="hzy-BM-7zU">
-            <objects>
-                <viewController storyboardIdentifier="two" id="0xk-YS-bu7" customClass="AnimationTwoViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="sDh-wp-sgE">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="OtG-Fl-CNB">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.532122974045941" green="0.71856938789562586" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yl6-tk-wLo" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="198" y="703"/>
-        </scene>
-        <!--Location View Controller-->
-        <scene sceneID="WQ0-zO-05C">
-            <objects>
-                <viewController id="GQn-Ax-MWK" customClass="LocationViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9YX-PT-ySd">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="dtI-uP-mAc">
-                                <rect key="frame" x="0.0" y="290" width="320" height="278"/>
-                            </mapView>
-=======
         <!--View Controller-->
         <scene sceneID="Oyl-vh-3Bf">
             <objects>
@@ -306,7 +146,6 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
->>>>>>> 2983f6b2d53a2455b5fafec9cec84b19388a37fd
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -317,11 +156,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5gD-8f-rKa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< HEAD
-            <point key="canvasLocation" x="-105" y="10"/>
-=======
             <point key="canvasLocation" x="-182" y="10"/>
->>>>>>> 2983f6b2d53a2455b5fafec9cec84b19388a37fd
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
