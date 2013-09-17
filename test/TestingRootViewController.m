@@ -45,9 +45,7 @@
 }
 
 - (IBAction)two:(id)sender {
-    //plist testing
-    PListTest *test = [[PListTest alloc] init];
-    [test test];
+
 }
 
 - (IBAction)three:(id)sender {

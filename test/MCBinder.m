@@ -68,6 +68,37 @@
     //determine the type of the cell property, create the correct handler and pass it off (for each model property)
     for(MCProperty *modelProperty in model) {
         //determine type of property the cell object has and pass off both properties to a handler
+<<<<<<< HEAD
+       //if([[property propertyObject] isKindOfClass:[UILabel class]])
+            
+    }
+}
+
+- (void) bindProperty:(NSString *)property fromObject:(NSObject *)model toObject:(NSObject *)cell {
+    //given a keypath from a model object (just the name or the name and an "extension")
+    //set the appropriate data in the cell property
+    NSArray *modelProperties = [self getPropertiesForClass:[model class]];
+    
+    //properties on cell objects have nice formatting: remove that for the search
+    NSString *rawName;// = [self parseCellProperty:property];
+    
+    //get all the properties from the model that match the property keypath that was passed in
+    //NOTE: 2D array incoming to account for keypaths and not just key values
+    NSArray *matchingProperties;// = [self getPropertiesFromArray:modelProperties matchingKeyPath:rawName];
+    
+    //check to make sure the property actually exists on the model
+    if([matchingProperties count] == 0) {
+        NSLog(@"VEIL: no matching properties found on object %@ for key path %@", [model class], rawName);
+        return;
+    }
+    
+    NSObject *propertyObject = [cell valueForKey:property];
+    
+    //determine the type of property we have, pass the information off to the appropriate handler
+    [matchingProperties enumerateObjectsUsingBlock:^(id object, NSUInteger idx, BOOL *stop) {
+        NSArray *path = (NSArray *)object;
+=======
+>>>>>>> 2983f6b2d53a2455b5fafec9cec84b19388a37fd
         
         //this is the superclass of all the interperetrs.
         MCUIElementInterpreter *interpreter = nil;
