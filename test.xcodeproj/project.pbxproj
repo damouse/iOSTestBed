@@ -50,6 +50,13 @@
 		709DAA8F17D1540F00E15B2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 709DAA8D17D1540F00E15B2B /* InfoPlist.strings */; };
 		709DAA9217D1540F00E15B2B /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DAA9117D1540F00E15B2B /* testTests.m */; };
 		709DAAB317D1640E00E15B2B /* TestingRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DAAB217D1640E00E15B2B /* TestingRootViewController.m */; };
+		70B201A117E91BD80035B945 /* Model.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 70B2019317E91BD80035B945 /* Model.xcdatamodel */; };
+		70B201A217E91BD80035B945 /* RKCoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2019517E91BD80035B945 /* RKCoreViewController.m */; };
+		70B201A317E91BD80035B945 /* Flavor.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2019717E91BD80035B945 /* Flavor.m */; };
+		70B201A417E91BD80035B945 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2019917E91BD80035B945 /* Group.m */; };
+		70B201A517E91BD80035B945 /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2019B17E91BD80035B945 /* Ingredient.m */; };
+		70B201A617E91BD80035B945 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2019D17E91BD80035B945 /* Item.m */; };
+		70B201A717E91BD80035B945 /* MBConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B201A017E91BD80035B945 /* MBConnectionManager.m */; };
 		70EF27B717DFDC4F00B177AE /* MCButtonInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EF27B617DFDC4F00B177AE /* MCButtonInterpreter.m */; };
 /* End PBXBuildFile section */
 
@@ -133,6 +140,20 @@
 		709DAA9117D1540F00E15B2B /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
 		709DAAB117D1640D00E15B2B /* TestingRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestingRootViewController.h; sourceTree = "<group>"; };
 		709DAAB217D1640E00E15B2B /* TestingRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestingRootViewController.m; sourceTree = "<group>"; };
+		70B2019317E91BD80035B945 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		70B2019417E91BD80035B945 /* RKCoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCoreViewController.h; sourceTree = "<group>"; };
+		70B2019517E91BD80035B945 /* RKCoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCoreViewController.m; sourceTree = "<group>"; };
+		70B2019617E91BD80035B945 /* Flavor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flavor.h; sourceTree = "<group>"; };
+		70B2019717E91BD80035B945 /* Flavor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flavor.m; sourceTree = "<group>"; };
+		70B2019817E91BD80035B945 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		70B2019917E91BD80035B945 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		70B2019A17E91BD80035B945 /* Ingredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ingredient.h; sourceTree = "<group>"; };
+		70B2019B17E91BD80035B945 /* Ingredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ingredient.m; sourceTree = "<group>"; };
+		70B2019C17E91BD80035B945 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		70B2019D17E91BD80035B945 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		70B2019E17E91BD80035B945 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		70B2019F17E91BD80035B945 /* MBConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBConnectionManager.h; sourceTree = "<group>"; };
+		70B201A017E91BD80035B945 /* MBConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBConnectionManager.m; sourceTree = "<group>"; };
 		70EF27B517DFDC4E00B177AE /* MCButtonInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCButtonInterpreter.h; sourceTree = "<group>"; };
 		70EF27B617DFDC4F00B177AE /* MCButtonInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCButtonInterpreter.m; sourceTree = "<group>"; };
 		788CEB9417884202AD3C4EB4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
@@ -239,7 +260,6 @@
 		709DAA5117D1540E00E15B2B = {
 			isa = PBXGroup;
 			children = (
-				708791B317DA663900A10A8A /* CoreLocation.framework */,
 				709DAA6317D1540E00E15B2B /* test */,
 				709DAA8A17D1540F00E15B2B /* testTests */,
 				709DAA5C17D1540E00E15B2B /* Frameworks */,
@@ -260,6 +280,7 @@
 		709DAA5C17D1540E00E15B2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				708791B317DA663900A10A8A /* CoreLocation.framework */,
 				708791B117DA630C00A10A8A /* MapKit.framework */,
 				709DAA5D17D1540E00E15B2B /* UIKit.framework */,
 				709DAA5F17D1540E00E15B2B /* Foundation.framework */,
@@ -278,6 +299,7 @@
 				709DAA7517D1540F00E15B2B /* MainStoryboard.storyboard */,
 				709DAAB117D1640D00E15B2B /* TestingRootViewController.h */,
 				709DAAB217D1640E00E15B2B /* TestingRootViewController.m */,
+				70B201A817E91BDE0035B945 /* RKDataStore */,
 				705CFA4F17DE965700661C9D /* BMC */,
 				705CF97C17DD646B00661C9D /* RKObjectMapping */,
 				705CF96E17DD539C00661C9D /* PList */,
@@ -318,6 +340,35 @@
 				709DAA8D17D1540F00E15B2B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70B201A817E91BDE0035B945 /* RKDataStore */ = {
+			isa = PBXGroup;
+			children = (
+				70B2019317E91BD80035B945 /* Model.xcdatamodel */,
+				70B2019417E91BD80035B945 /* RKCoreViewController.h */,
+				70B2019517E91BD80035B945 /* RKCoreViewController.m */,
+				70B201A917E91BEB0035B945 /* Model */,
+			);
+			name = RKDataStore;
+			sourceTree = "<group>";
+		};
+		70B201A917E91BEB0035B945 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70B2019617E91BD80035B945 /* Flavor.h */,
+				70B2019717E91BD80035B945 /* Flavor.m */,
+				70B2019817E91BD80035B945 /* Group.h */,
+				70B2019917E91BD80035B945 /* Group.m */,
+				70B2019A17E91BD80035B945 /* Ingredient.h */,
+				70B2019B17E91BD80035B945 /* Ingredient.m */,
+				70B2019C17E91BD80035B945 /* Item.h */,
+				70B2019D17E91BD80035B945 /* Item.m */,
+				70B2019E17E91BD80035B945 /* Menu.h */,
+				70B2019F17E91BD80035B945 /* MBConnectionManager.h */,
+				70B201A017E91BD80035B945 /* MBConnectionManager.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		70EF27B817DFDC6900B177AE /* Element Interpreters */ = {
@@ -485,7 +536,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70B201A617E91BD80035B945 /* Item.m in Sources */,
+				70B201A717E91BD80035B945 /* MBConnectionManager.m in Sources */,
 				7055C74717E00F6700B76E5C /* MCInterpreterHub.m in Sources */,
+				70B201A117E91BD80035B945 /* Model.xcdatamodel in Sources */,
 				709DAA6A17D1540E00E15B2B /* main.m in Sources */,
 				709DAA6E17D1540E00E15B2B /* AppDelegate.m in Sources */,
 				709DAAB317D1640E00E15B2B /* TestingRootViewController.m in Sources */,
@@ -504,10 +558,14 @@
 				705CFA5E17DEB3AF00661C9D /* MCLabelInterpreter.m in Sources */,
 				705CFA6117DEB3D500661C9D /* MCUIElementInterpreter.m in Sources */,
 				705CFA6417DEB3E500661C9D /* MCTextViewInterpreter.m in Sources */,
+				70B201A317E91BD80035B945 /* Flavor.m in Sources */,
+				70B201A217E91BD80035B945 /* RKCoreViewController.m in Sources */,
 				705CFA6717DEB3F400661C9D /* MCTextFieldInterpreter.m in Sources */,
+				70B201A417E91BD80035B945 /* Group.m in Sources */,
 				70EF27B717DFDC4F00B177AE /* MCButtonInterpreter.m in Sources */,
 				705CFA6A17DEB40F00661C9D /* MCImageViewInterpreter.m in Sources */,
 				7055C72F17DFE45500B76E5C /* Model.m in Sources */,
+				70B201A517E91BD80035B945 /* Ingredient.m in Sources */,
 				7055C73517DFE70600B76E5C /* Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
