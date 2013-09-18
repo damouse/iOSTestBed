@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3396" systemVersion="12F37" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3396" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Allergen" syncable="YES"/>
     <entity name="Flavor" syncable="YES">
         <attribute name="flavorID" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="Group" syncable="YES">
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="menuID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" syncable="YES"/>
+    </entity>
+    <entity name="Ingredient" syncable="YES">
+        <attribute name="calories" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="caloriesFat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carbs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cholesterol" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fiber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ingredientID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="protein" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="satFat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servingSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sodium" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sugar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalFat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transFat" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Item" syncable="YES">
+        <attribute name="androidEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ecoprintEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iphoneEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="itemID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="allergens" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Allergen" syncable="YES"/>
+        <relationship name="ingredients" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Ingredient" syncable="YES"/>
+    </entity>
     <elements>
-        <element name="Flavor" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Flavor" positionX="-270" positionY="303" width="128" height="75"/>
+        <element name="Ingredient" positionX="196" positionY="123" width="128" height="255"/>
+        <element name="Item" positionX="-99" positionY="-9" width="128" height="178"/>
+        <element name="Group" positionX="-459" positionY="-42" width="128" height="103"/>
+        <element name="Allergen" positionX="198" positionY="-45" width="128" height="45"/>
     </elements>
 </model>

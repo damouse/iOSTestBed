@@ -15,7 +15,7 @@
 
 @implementation RKCoreViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+- (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
@@ -23,7 +23,7 @@
     return self;
 }
 
-- (void)viewDidLoad {
+- (void) viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
@@ -31,8 +31,9 @@
 - (void) viewDidAppear:(BOOL)animated {
     //
     [self setupRKStoreWithBasePath:@"http://www.culvers.com/cws2/"];
-    [self setupRestKit:[RKObjectManager sharedManager]];
+    //[self setupRestKit:[RKObjectManager sharedManager]];
     
+    //adding a new item
     /*Flavor *new = [NSEntityDescription insertNewObjectForEntityForName:NSStringFromClass([Flavor class]) inManagedObjectContext:[RKManagedObjectStore defaultStore].mainQueueManagedObjectContext];
     
     [new setName:@"AAAAAATEST"];
@@ -55,41 +56,6 @@
     }];
 }
 
-- (void) setupRestKit:(RKObjectManager *)manager {
-    
-    [manager addResponseDescriptor:[Flavor entityMapping]];
-    return;
-    
-    /*RKObjectManager *manager = [RKObjectManager managerWithBaseURL:[NSURL URLWithString:@"http://www.culvers.com/cws2/queryflavors.aspx"]];
-
-    
-    NSManagedObjectModel *managedObjectModel = [NSManagedObjectModel mergedModelFromBundles:nil];
-    RKManagedObjectStore *managedObjectStore = [[RKManagedObjectStore alloc] initWithManagedObjectModel:managedObjectModel];
-    manager.managedObjectStore = managedObjectStore;*/
-    
-
-    //object mapping
-    RKEntityMapping *aeroplaneMapping = [RKEntityMapping mappingForEntityForName:NSStringFromClass([Flavor class]) inManagedObjectStore:[RKManagedObjectStore defaultStore]];
-    
-    aeroplaneMapping.identificationAttributes = @[ @"flavorID" ];
-    
-    [aeroplaneMapping addAttributeMappingsFromDictionary:@{@"flavorId": @"flavorID",
-                                                           @"flavorName": @"name", }];
-    
-    //[aeroplaneMapping addAttributeMappingsFromDictionary:parentObjectMapping];
-    
-    //[aeroplaneMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"category" toKeyPath:@"category" withMapping:categoryMapping]];
-    
-    [manager addResponseDescriptorsFromArray:@[ [RKResponseDescriptor responseDescriptorWithMapping:aeroplaneMapping
-                                                                                       pathPattern:@"queryflavors.aspx"
-                                                                                           keyPath:@""                                         statusCodes:RKStatusCodeIndexSetForClass(RKStatusCodeClassSuccessful)]
-                                               ]];
-}
-
-- (void) controllerDidChangeContent:(NSFetchedResultsController *)controller{
-
-    NSLog(@"Something has changed!");
-}
 
 - (IBAction) test:(id)sender {
     NSManagedObjectContext *moc = [RKManagedObjectStore defaultStore].mainQueueManagedObjectContext;
@@ -99,8 +65,7 @@
     
     // Set example predicate and sort orderings...
     
-    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc]
-                                        initWithKey:@"name" ascending:YES];
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc]  initWithKey:@"name" ascending:YES];
     [request setSortDescriptors:@[sortDescriptor]];
     
     NSError *error;

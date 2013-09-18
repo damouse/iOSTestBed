@@ -52,7 +52,7 @@
     
     //RKLogConfigureByName("RestKit", RKLogLevelWarning);
     //RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelTrace);
-   //RKLogConfigureByName("RestKit/Network", RKLogLevelTrace);
+   //RKLogConfigureByNam/Users/mickey/Documents/Projects/iOSTestBed/test/RKCoreViewController.me("RestKit/Network", RKLogLevelTrace);
     
     //WHAT HAPPN
     RKObjectRequestOperation *objectRequestOperation = [[RKObjectRequestOperation alloc] initWithRequest:request responseDescriptors:@[ responseDescriptor ]];
@@ -85,6 +85,7 @@
 
 - (void) setupRKStoreWithPath:(NSString *)basePath {
     //inits the persistant store
+    //for culvers: @"http://www.culvers.com/cws2/queryflavors.aspx"
     RKObjectManager *manager = [RKObjectManager managerWithBaseURL:[NSURL URLWithString:basePath]];
     
     NSManagedObjectModel *managedObjectModel = [NSManagedObjectModel mergedModelFromBundles:nil];

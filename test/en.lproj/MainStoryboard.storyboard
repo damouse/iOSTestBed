@@ -32,16 +32,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hl-vx-rnC">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="59" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hl-vx-rnC">
                                 <rect key="frame" x="124" y="142" width="59" height="30"/>
                                 <state key="normal" title="Button 1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="one:" destination="gx3-xO-ei7" eventType="touchUpInside" id="4fe-Ax-dQW"/>
+                                    <segue destination="bMV-Dk-Y4N" kind="push" id="jJZ-BT-lw9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NcU-vR-ftF">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="59" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NcU-vR-ftF">
                                 <rect key="frame" x="122" y="255" width="59" height="30"/>
                                 <state key="normal" title="Button 4">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -50,7 +51,7 @@
                                     <action selector="four:" destination="gx3-xO-ei7" eventType="touchUpInside" id="3Wc-dN-sYN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STg-Ex-TCS">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="59" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STg-Ex-TCS">
                                 <rect key="frame" x="124" y="217" width="59" height="30"/>
                                 <state key="normal" title="Button 3">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -60,7 +61,7 @@
                                     <segue destination="Gfk-ni-tQ0" kind="push" id="6Tn-YK-ddD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vKA-03-EEh">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="61" placeholderIntrinsicHeight="29" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vKA-03-EEh">
                                 <rect key="frame" x="122" y="180" width="61" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal">
@@ -80,14 +81,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="vKA-03-EEh" firstAttribute="top" secondItem="gLx-bE-Wtq" secondAttribute="top" constant="116" id="56T-6r-PnH"/>
-                            <constraint firstAttribute="bottom" secondItem="NcU-vR-ftF" secondAttribute="bottom" constant="172" id="5xY-zP-rX1"/>
                             <constraint firstItem="NcU-vR-ftF" firstAttribute="leading" secondItem="STg-Ex-TCS" secondAttribute="leading" id="hvF-zL-Ohv"/>
-                            <constraint firstItem="STg-Ex-TCS" firstAttribute="top" secondItem="gLx-bE-Wtq" secondAttribute="top" constant="201" id="po2-Hw-DLg"/>
                             <constraint firstItem="STg-Ex-TCS" firstAttribute="leading" secondItem="vKA-03-EEh" secondAttribute="leading" id="tEO-Dr-NbN"/>
                             <constraint firstItem="9Hl-vx-rnC" firstAttribute="leading" secondItem="gLx-bE-Wtq" secondAttribute="leading" constant="124" id="w2k-dA-jrQ"/>
                             <constraint firstItem="vKA-03-EEh" firstAttribute="leading" secondItem="9Hl-vx-rnC" secondAttribute="leading" id="x5j-Y7-J2a"/>
-                            <constraint firstItem="9Hl-vx-rnC" firstAttribute="top" secondItem="gLx-bE-Wtq" secondAttribute="top" constant="42" id="xxO-ZC-5AR"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hXr-dl-Bai"/>
@@ -95,6 +92,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wBg-aK-54w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-602" y="10"/>
+        </scene>
+        <!--Core View Controller-->
+        <scene sceneID="T2y-pC-Hj3">
+            <objects>
+                <viewController id="bMV-Dk-Y4N" customClass="RKCoreViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mGr-dH-3oS"/>
+                        <viewControllerLayoutGuide type="bottom" id="v1l-84-bHq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vre-Le-39Z">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baT-Il-Izt">
+                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="test:" destination="bMV-Dk-Y4N" eventType="touchUpInside" id="5Dr-cv-mf3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Io-QG-sI5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="taG-MA-YrV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-602" y="675"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Oyl-vh-3Bf">
